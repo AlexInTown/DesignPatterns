@@ -1,6 +1,6 @@
-package com.ait.www.patterns.factory.method;
+package com.ait.www.patterns.factory.abs;
 
-import com.ait.www.patterns.factory.method.Pizza;
+import com.ait.www.patterns.factory.abs.Pizza;
 
 /**
  * Created by zhenouyang on 2017/2/10.
@@ -11,7 +11,6 @@ public abstract class PizzaStore {
         Pizza pizza = createPizza(type);
         pizza.prepare();
         pizza.bake();
-        pizza.cut();
         pizza.box();
         return pizza;
     }

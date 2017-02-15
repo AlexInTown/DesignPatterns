@@ -1,4 +1,4 @@
-package com.ait.www.patterns.factory;
+package com.ait.www.patterns.factory.method;
 
 import java.util.ArrayList;
 import java.util.List;

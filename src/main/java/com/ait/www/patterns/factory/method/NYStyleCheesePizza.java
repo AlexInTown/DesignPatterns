@@ -1,4 +1,4 @@
-package com.ait.www.patterns.factory;
+package com.ait.www.patterns.factory.method;
 
 /**
  * Created by zhenouyang on 2017/2/10.
